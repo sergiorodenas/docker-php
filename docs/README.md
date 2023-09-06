@@ -18,6 +18,12 @@ Copy over the environment variable example file.
 cp .env.example .env
 ```
 
+We use [NVM](https://github.com/nvm-sh/nvm) to manage our local Node version (Docker support coming soon after some JS libraries support it better). Ensure you have NVM installed and configured and use the following command to install the correct version of Node:
+
+```bash
+nvm use
+```
+
 Make sure to install the dependencies:
 
 ```bash
